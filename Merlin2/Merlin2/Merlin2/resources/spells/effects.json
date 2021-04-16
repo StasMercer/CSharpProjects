@@ -1,0 +1,22 @@
+﻿[
+  {
+    "name": "damage",
+    "cost": 5
+  },
+  {
+    "name": "fireball",
+    "cost": 3
+  },
+  {
+    "name": "damage-40",
+    "cost": 8
+  },
+  {
+    "name": "dot-1",
+    "cost": 1
+  },
+  {
+    "name": "heal-20",
+    "cost": 0
+  }
+]

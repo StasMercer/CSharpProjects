@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="66" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="16">
+ <tileset firstgid="1" name="Assets" tilewidth="16" tileheight="16" tilecount="322" columns="23">
+  <image source="tilesets/Assets.png" width="368" height="224"/>
+ </tileset>
+ <layer id="5" name="walls" width="66" height="44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3aOwqAMBAAUY+g97+sxSCRxfhLDMLOwDZW5mEhSabJYkuYjEWDDFNzmBNNzWJzyNJmEdOBdCAdSAfSgXQgHUgH0oF0IB1IB9KBdCAdSAfSgXQgHUgHeuKw3/ftWdxT/rJWh6M98F5lcBi5xju1nl/oUPrTet7meRbpQP4/kN8D1c7/dSjPMznU7kDoQL0dWu6qjEiH8n46XDv8YUZ05pB1dNAhGqwBjP/UYC0AAA==
+  </data>
+ </layer>
+ <layer id="7" name="background" width="66" height="44" opacity="0.85">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2ZW24TMRSGT4HCCipxFUsoBMQSyr07iFC57GCgEvDgsIA+cFHaBfDARUy6g0ojCotoWAv/wTY5tZxkprX9cuZIn6pMnczxN/bIx14hohrsgdukJ24AA0bgHbgIBg5tHsZgl+wYWCe9Hn6QnQsTsAEOSaeHn2T7/gsMSe94OAJT8AdUZJ00pM/DjoDHgdZ5IT14B72H3kPvoX8/xDww2tfVA9I7L9Bn4/FzYoX0eXC1FTv474GvafPANUXogeut3oO9ptCDkR649uR6S5sH9NnUwXjgekubh0qMB83rKOGg9yA81KTXQ92Ph2PjgfcqG9LrobEODK+nt0mvh23rwPB6usu8OAPOgnNgFZxPmNt78AF8BJ8S/m4s5LyAA8Pr6S4eLoHL4Aq4Cq4lzO0L+Aq+ge8JfzcW0gMcGF5Pj6m9B/7+Tdf+VsvvcJR81m3CexhbB4bX01083AX3wH3wADxsed+Sz7pNSA+8vvbnF13ek0/AdbAFnuZJM3vIeVGdYv1wkCO5ghGeZ2n2kGK/+iB5ZmUjlYc76VMrGrH96q7nvI/AY7CZIb9SwR6aU9bdz8Bz8CJTjiUirLP8vlyXc5zX4A14mynHEsEe9sS+XK5zHF5/cw1ywf1dhGyzmjCHRRGe4+TywPd5SXYfnOvZmmbjLkS2K1Xzxjyk3odZm93HnxH8cyDnoES2K+0h9n7g+jE2VruMa/+Z69CR65/f55mHb7dP1sNaTgEuwveDz1H6GLncJ0G+4TifuPaH7u/UIb+zEbk2EPeU7X7T8WfR9Xl0gfcOjuy9jV9Xh+y6HCc0m9f+uQ2dIz/O5fj2HvbFbw1pft8HQbudFrxaco1z+3wCYrlNF1At+X/47Ks5/Q6plvS/meNBfj5J/z1/AZ5EIPdgLQAA
+  </data>
+ </layer>
+ <objectgroup id="8" name="objects">
+  <object id="1" name="player" type="Player" x="90.333" y="569.667" width="25" height="55"/>
+  <object id="9" name="jump" type="JumpPotion" x="964.333" y="575.333"/>
+  <object id="10" name="Skeleton" type="Skeleton" x="900" y="561" width="32" height="61"/>
+  <object id="12" name="skullkiller" type="SkullKiller" x="227" y="563" width="3" height="3"/>
+  <object id="13" name="HealingPotion1" type="HealingPotion" x="229.333" y="387"/>
+ </objectgroup>
+</map>

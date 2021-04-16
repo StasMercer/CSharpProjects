@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "xHYw1KCh8tOTG/xA74V9HVuyfPcFjp+SNnSCW5l4Gj1PRXcC1izABhJBG36P9IyirxtH3yk91kwFU0Z3gFGkRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merce\\OneDrive - Technicka univerzita v Kosiciach\\2course\\ProgC#\\Merlin2\\Merlin2\\Merlin2\\Merlin2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\merce\\.nuget\\packages\\merlincore\\2.4.2\\merlincore.2.4.2.nupkg.sha512",
+    "C:\\Users\\merce\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\merce\\.nuget\\packages\\raylib-cs\\3.1.5\\raylib-cs.3.1.5.nupkg.sha512",
+    "C:\\Users\\merce\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\merce\\.nuget\\packages\\tiledsharp\\1.0.1\\tiledsharp.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

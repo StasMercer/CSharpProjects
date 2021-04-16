@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="66" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="19">
+ <tileset firstgid="1" name="Assets" tilewidth="16" tileheight="16" tilecount="322" columns="23">
+  <image source="tilesets/Assets.png" width="368" height="224"/>
+ </tileset>
+ <layer id="1" name="background" width="66" height="44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2abU4CMRCGXxITT2BijHfQEM/gLbjFGv5WDuAPPwIcwQ9cOMPG1UMAZ3Em3cowdkHMBjdOJ3kTdpm29GFmmbZ0AOSkMekCduyc5EjXpAHpmNStZI3DkDSCj4Ez2OXwCp8LU9IlqYRNDm/wc38n9WA3HuakBWlJyuCZFLDH4UaI48BqXkgOgUHikDgkDun5EOPAsl5Xd2E3L2jOLijkRAf2OFRrK2bwxYHvWePAawrNgddbiYO/Z5CDkxx47cnrLWscaM4uV/HA6y1rHDIRD5brKMEgcRAcctjlkP9RPNyS7kj3pIc9jFdnOh54r7LA/jg8kp5Iz6SXPYxXZ4FD4Rk4rqf7sJsXfc/AcT29S17sEtdtyYGYybwgBo7r6V047BLXbcmBmEkOxMBxPT2E3bwYegaO62nNoc3x3JRJDlxfh/MLyaHN8dyUybzIjNeT8jzLMoe0X504BIvtV1s95y3SuvvbOivsy1k8xxmLfbl0jrPKi8Rh+/PhqOHxm+7vN8afYdPz4ZR0UOlQvP6POsH68yHsRUke/JvK96dYPwe+gj/v6WP1fzv2n8HXIhP4OrXOv6tURvzk+wOs6px5pP2mMUJbnoerabtNo+ozTqu+Q//MpyeYlYJBITjMavzl3KVifh9Yr/di/1XQbeX9mfCf/HDeuo+FUKmuM3Wtx1uoPqR/bOyYn+yzUAz0d6vbLrf41+kTXJsH8GAtAAA=
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="66" height="44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3aQQqAMAwAQZ+g//+sh6UUghHFosXsQi6eZKoebJfFYluYikWDCpM5rIUms2gOVWoWMR1IB9KBdCAdSAfSgXQgHUgH0oF0IB1IB9KBdCAd6C2H+H/sq3To9+F78dzhznrOsvZHjXgedPhPV/YvZl7HUelA7meRDuR3knweKNv/16Ffr+SQnYHQgXQgHUgHqnZO7Myh6uigQzTYAe5E0phgLQAA
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" type="Player" x="89.0332" y="393.23" width="28.7503" height="52.8634"/>
+  <object id="3" name="bull" type="Bull" x="746.696" y="518.727" width="57" height="103.01"/>
+  <object id="4" name="preasurePlate-1" type="PreasurePlate" x="232.724" y="629.436" width="50.08" height="22.5851"/>
+  <object id="5" name="door-1" type="Door" x="525.349" y="315.209" width="68.7372" height="25.531"/>
+  <object id="6" name="preasurePlate-2" type="PreasurePlate" x="612.743" y="627.473" width="49.098" height="24.549"/>
+  <object id="7" name="door-2" type="Door" x="620.599" y="318.155" width="72.6651" height="18.6572"/>
+  <object id="8" name="switch-3" type="Switch" x="527.313" y="261.201" width="22.5851" height="42.2243"/>
+  <object id="9" name="door-3" type="Door" x="288.696" y="237.634" width="65.7913" height="25.531"/>
+  <object id="10" name="switch-4" type="Switch" x="653.985" y="256.292" width="27.4949" height="46.1521"/>
+  <object id="11" name="door-4" type="Door" x="850.378" y="223.887" width="61.8635" height="17.6753"/>
+  <object id="12" name="jump" type="JumpPotion" x="568.555" y="272.985" width="20.6212" height="31.4227"/>
+  <object id="13" name="healingPotion" type="HealingPotion" x="615.689" y="276.913" width="18.6572" height="27.4949"/>
+  <object id="14" name="box1" type="Box" x="300.48" y="95.2501" width="44.1882" height="40.2604"/>
+  <object id="16" name="box2" type="Box" x="306.372" y="163.987" width="42.2243" height="41.2423"/>
+  <object id="17" name="box3" type="Box" x="865.107" y="93.2862" width="45.1702" height="41.2423"/>
+  <object id="18" name="box4" type="Box" x="859.215" y="154.168" width="47.1341" height="41.2423"/>
+ </objectgroup>
+</map>

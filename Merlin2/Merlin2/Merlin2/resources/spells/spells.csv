@@ -1,0 +1,2 @@
+﻿name;spelltype;animationpath;animationwidth;animationheight;effect1,effect2,effect3
+fireball;projectile;resources/sprites/fireball.png;36;19;damage,dot-1

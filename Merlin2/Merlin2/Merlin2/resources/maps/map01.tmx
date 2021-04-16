@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="66" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+ <tileset firstgid="1" name="Assets" tilewidth="16" tileheight="16" tilecount="322" columns="23">
+  <image source="tilesets/Assets.png" width="368" height="224"/>
+ </tileset>
+ <layer id="1" name="background" width="66" height="44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2a7W3CMBCGD6lSJ6hUVd2hFeoM3YItUuWvywD90Q8BI/SDBmaImnYIYJbeK8flcB1AgQal55NeiYSzjZ/4zNlOh4gy1oh1RXrskmVYt6w+65TVLaWNw4A1JDsGLkgvh3eysTBhXbMK0snhg2zfP1k90jseZqw5a8FKyDLJSR+HOyGMA61xITk4BpFD5BA5xPkhxAHSnld3SW9ccJ+Nk4uJDjXP4Z71wHpkPTXcNjiUaysw+OGAe01zeGa9sF5Zbw23DQ5YU/gcsN7SFhchDrinkIORHLD2xHqrDodDxvguBg7cZ5N54wHrrTocDhnjuxg4JGI8aM6jBIPIQXDISC+H7A/HQxvmTn88YK8yp/1yaMPc6TjkloFBPp2S3rhILQODfFr7PMkMDPLpuhzaMA9UmeTADAzy6QHV49CGeaDKHIeBZWCQT/sc2vyctzXJAfm1O7+QHNr8nLc1GReJ8nxSnmdp5hD3qyMHZ6H9aq3nvHlcd/9aZ7l9OY3nOCOxLxfPcZZxETlsnh9O9tz+vuurY/gN6+aHc9ZRqWPx+T/qjFbnB7cXJXngPxX3J7R6DnxD9rwnpeX7dvCfks1FxmTz1Cr/rqci4Ce/79Myz5kFyq9rw5VFP0xF2U0alr9xUtbt6gefnmBWCAa54DCt8Jd9lwr5fdFqvhd6V8EvK+9Phf94y377dcyFCu868a799uZeHdI/1HbIT9aZewz8Z+uXXWzwr9I3Uk8xH2AtAAA=
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="66" height="44">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3aQQqAIBBA0Y5Q979si48EAxNCosn8D27aRA+tQI/DYlcYFYsGFUbmcBYamUVzqFKziOlAOpAOpAPpQDqQDqQDrXCI/3iz763DvxxWpgONdlg5t7+kA7kuSAfSgWY47PDO0IFcF6QDjXTYYf5n6UA9+xc7P19vOpD7WaQD+d0k5wNl+/86PNcrOWRnIHQgHUgH0oGqnRN7c6g6dNAhGtyk6wRnYC0AAA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" type="Player" x="89.0332" y="393.23" width="28.7503" height="52.8634"/>
+  <object id="3" name="vilianv" type="Villian" x="839" y="395" width="57" height="158"/>
+  <object id="4" name="heal" type="HealingPotion" x="517" y="171" width="23" height="31"/>
+  <object id="5" name="jump" type="JumpPotion" x="272" y="218" width="24" height="38"/>
+ </objectgroup>
+</map>
